@@ -12,7 +12,6 @@
   <header class="navbar" id="navbar">
     <nav>
       <a href="#top" class="nav-logo font-display">
-
         <span class="nav-logo-text">$WSC</span>
       </a>
       <div class="nav-links">
@@ -34,7 +33,9 @@
       </div>
       <div class="hero-glow"></div>
 
-
+      <div class="hero-chip">
+        <div class="hero-chip-inner font-display">$WSC<br />$WSC</div>
+      </div>
       <div class="hero-sticker-left" style="--r:-6deg;">
         <span class="sticker sticker-paper">no cat left unslapped</span>
       </div>
@@ -93,7 +94,6 @@
     <section id="lore" class="lore">
       <div class="wrap-md">
         <div class="lore-head">
-          <h2 class="font-display">The Lore<br />of the Slap</h2>
         </div>
         <div class="lore-body">
           <div class="lore-line"></div>
@@ -105,16 +105,20 @@
     <!-- ======================= TOKEN ======================= -->
     <section id="token" class="token">
       <div class="wrap">
-        <div class="token-head">
-          <span class="kicker">Tokenomics 101</span>
-          <h2 class="font-display">The Slap Economy</h2>
-        </div>
+ 
         <div class="stat-grid wsc-reveal" data-reveal id="statGrid"></div>
-        <div class="contract-card wsc-reveal" data-reveal data-delay="100">
-          <p class="stat-label">Contract address</p>
-          <p class="contract-value">COMING SOON</p>
-          <p class="contract-note">Always verify the contract address from official $WSC channels before buying.</p>
+        <div class="contract-card wsc-reveal"
         </div>
+      </div>
+    </section>
+
+    <!-- ======================= ALLOCATION ======================= -->
+    <section class="allocation">
+      <div class="wrap-sm">
+        <div class="token-head">
+          <p class="allocation-note" id="allocNote"></p>
+        </div>
+        <div id="allocList"></div>
       </div>
     </section>
 
@@ -155,6 +159,7 @@
     <!-- ======================= ARCHIVE ======================= -->
     <section id="archive" class="archive">
       <div class="wrap">
+
         <div class="archive-grid" id="archiveGrid"></div>
       </div>
     </section>
