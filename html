@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>$WSC — World Slapping Cat</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body class="font-body">
+
+  <!-- ======================= NAVBAR ======================= -->
+  <header class="navbar" id="navbar">
+    <nav>
+      <a href="#top" class="nav-logo font-display">
+
+        <span class="nav-logo-text">$WSC</span>
+      </a>
+      <div class="nav-links">
+        <a href="#token">Token</a>
+        <a href="#lore">Lore</a>
+        <a href="#plan">Plan</a>
+        <a href="#archive">Archive</a>
+      </div>
+      <a href="#buy" class="btn btn-solid btn-compact font-display">Buy $WSC</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ======================= HERO ======================= -->
+    <section id="top" class="hero" data-reveal-parent>
+      <div class="hero-video-bg" id="heroVideoBg">
+        <video src="mascot.mp4" autoplay loop muted playsinline aria-label="World Slapping Cat mascot video"></video>
+        <div class="hero-video-overlay"></div>
+      </div>
+      <div class="hero-glow"></div>
+
+
+      <div class="hero-sticker-left" style="--r:-6deg;">
+        <span class="sticker sticker-paper">no cat left unslapped</span>
+      </div>
+      <div class="hero-sticker-right" style="--r:5deg;">
+        <span class="sticker sticker-red">100% chaotic</span>
+      </div>
+
+      <div class="hero-grid hero-grid--full">
+        <div class="hero-copy">
+          <div class="wsc-reveal" data-reveal>
+            <span class="sticker sticker-electric">Robinhood Chain · $WSC</span>
+          </div>
+          <h1 class="hero-title font-display wsc-reveal" data-reveal data-delay="80">
+            WORLD<br />SLAPPING<br />CAT<span style="color:var(--electric)">.</span>
+          </h1>
+          <p class="hero-tagline font-display wsc-reveal" data-reveal data-delay="160">
+            The cat that slaps the world.
+          </p>
+          <p class="hero-desc wsc-reveal" data-reveal data-delay="220">
+            Some cats chase mice.<br />
+            Some cats chase money.<br />
+            This cat slaps the entire world.
+          </p>
+          <div id="buy" class="hero-cta wsc-reveal" data-reveal data-delay="280">
+            <a href="#token" class="btn btn-solid font-display">Buy $WSC</a>
+            <a href="#community" class="btn btn-outline font-display">Join the community</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#ticker" class="hero-scroll">
+        Scroll <span>↓</span>
+      </a>
+    </section>
+
+    <!-- ======================= TICKER ======================= -->
+    <div id="ticker" class="ticker">
+      <div class="ticker-track" id="tickerTrack"></div>
+    </div>
+
+    <!-- ======================= WHY ======================= -->
+    <section class="why">
+      <div class="wrap center" style="position:relative;z-index:10;">
+        <h2 class="font-display wsc-reveal" data-reveal>WHY DOES<br />THIS EXIST?</h2>
+        <div class="why-body wsc-reveal" data-reveal data-delay="150">
+          <p>Honestly?</p>
+          <p>We don't know.</p>
+          <p>The cat just started slapping.</p>
+          <p>And the world kept watching.</p>
+        </div>
+        <p class="why-punch font-display wsc-reveal" data-reveal data-delay="300">Now there's a token.</p>
+      </div>
+    </section>
+
+    <!-- ======================= LORE ======================= -->
+    <section id="lore" class="lore">
+      <div class="wrap-md">
+        <div class="lore-head">
+          <span class="kicker">The Timeline</span>
+          <h2 class="font-display">The Lore<br />of the Slap</h2>
+        </div>
+        <div class="lore-body">
+          <div class="lore-line"></div>
+          <ul class="lore-list" id="loreList"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= TOKEN ======================= -->
+    <section id="token" class="token">
+      <div class="wrap">
+        <div class="token-head">
+          <span class="kicker">Tokenomics 101</span>
+          <h2 class="font-display">The Slap Economy</h2>
+        </div>
+        <div class="stat-grid wsc-reveal" data-reveal id="statGrid"></div>
+        <div class="contract-card wsc-reveal" data-reveal data-delay="100">
+          <p class="stat-label">Contract address</p>
+          <p class="contract-value">COMING SOON</p>
+          <p class="contract-note">Always verify the contract address from official $WSC channels before buying.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= ALLOCATION ======================= -->
+    <section class="allocation">
+      <div class="wrap-sm">
+        <div class="token-head">
+          <span class="kicker">Allocation</span>
+          <h2 class="font-display">Tokenomics</h2>
+          <p class="allocation-note" id="allocNote">Final allocation hasn't been locked in yet — this section updates the moment it is.</p>
+        </div>
+        <div id="allocList"></div>
+      </div>
+    </section>
+
+    <!-- ======================= ROADMAP ======================= -->
+    <section id="plan" class="roadmap">
+      <div class="wrap">
+        <div class="token-head">
+          <span class="kicker">No corporate roadmap here</span>
+          <h2 class="font-display">The Slap Plan</h2>
+        </div>
+        <div class="roadmap-grid" id="roadmapGrid"></div>
+
+        <div class="roadmap-mystery wsc-reveal" data-reveal>
+          <div>
+            <span class="num font-display">04</span>
+            <h3 class="font-display">???</h3>
+            <p class="quote">"Nobody knows what happens next."</p>
+          </div>
+          <div class="mascot-frame mascot-frame-sm roadmap-mascot">
+            <video src="assets/mascot.mp4" autoplay loop muted playsinline aria-label="World Slapping Cat mascot video, confused chapter"></video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= COMMUNITY ======================= -->
+    <section id="community" class="community">
+      <div class="wrap-sm center">
+        <h2 class="font-display wsc-reveal" data-reveal>The world is our<br />slapping zone.</h2>
+        <p class="community-desc wsc-reveal" data-reveal data-delay="100">
+          $WSC isn't about being serious. It's about building something ridiculous with people who get the joke.
+        </p>
+        <div class="community-cta" id="communityCta"></div>
+        <p class="community-note" id="communityNote">Official channels launch alongside $WSC.</p>
+      </div>
+    </section>
+
+    <!-- ======================= ARCHIVE ======================= -->
+    <section id="archive" class="archive">
+      <div class="wrap">
+        <div class="archive-grid" id="archiveGrid"></div>
+      </div>
+    </section>
+
+    <!-- ======================= SLAP COUNTER ======================= -->
+    <section class="slap" id="slapSection">
+      <div class="slap-inner">
+        <button class="mute-btn" id="muteBtn" aria-label="Mute slap sound">
+          <svg id="volIcon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+        </button>
+
+        <h2 class="font-display">Need a Slap?</h2>
+
+        <div class="slap-btn-wrap" id="slapBtnWrap">
+          <button class="slap-btn font-display" id="slapBtn">Slap the World</button>
+        </div>
+
+        <div class="slap-count-card">
+          <p class="slap-count-label">World slaps</p>
+          <p class="slap-count-value" id="slapCount">000000</p>
+        </div>
+        <p class="slap-hint">Counted for this visit only — hook this up to a backend to make it global.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================= FOOTER ======================= -->
+  <footer class="site-footer">
+    <div class="wrap center">
+      <h2 class="font-display">
+        The world is big.<br />
+        The cat is angry.<br />
+        <span style="color:var(--electric)">Slap first.</span>
+      </h2>
+    </div>
+
+    <div class="footer-mid">
+      <div class="footer-row">
+        <div style="text-align:center">
+          <p class="footer-brand-name font-display">WORLD SLAPPING CAT</p>
+          <p class="footer-brand-sub">$WSC · Built on Robinhood Chain.</p>
+        </div>
+        <div class="footer-socials" id="footerSocials"></div>
+      </div>
+
+      <div class="footer-contract">
+        <p class="label">Contract</p>
+        <p class="value">COMING SOON</p>
+      </div>
+
+      <div class="footer-legal">
+        <p>$WSC is a meme/community project. Nothing on this website constitutes financial advice.</p>
+        <p class="copyright" id="copyrightYear"></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
