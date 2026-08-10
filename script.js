@@ -13,25 +13,15 @@ const PAW_SVG = `
 const TICKER_ITEMS = ["$WSC", "WORLD SLAPPING CAT", "THE CAT IS SLAPPING", "ROBINHOOD CHAIN", "$WSC", "NO CAT LEFT UNSLAPPED"];
 
 const LORE_EVENTS = [
-  { n: "01", title: "The cat appeared", body: "Nobody knew where it came from." },
-  { n: "02", title: "The first slap", body: "One slap changed everything." },
-  { n: "03", title: "The world responded", body: "Memes spread across the internet." },
-  { n: "04", title: "$WSC was born", body: "The community gave the cat a token." },
-  { n: "05", title: "The slapping continues", body: "There is no stopping the cat." },
+
 ];
 
 const TOKEN_META = [
-  { label: "Token", value: "WORLD SLAPPING CAT" },
-  { label: "Ticker", value: "$WSC" },
-  { label: "Network", value: "Robinhood Chain" },
+
 ];
 
 // percent: null = belum final, tampilkan pola "coming soon"
 const ALLOCATION = [
-  { label: "COMMUNITY", percent: null },
-  { label: "LIQUIDITY", percent: null },
-  { label: "MARKETING", percent: null },
-  { label: "TREASURY", percent: null },
 ];
 
 const ROADMAP = [
@@ -43,6 +33,7 @@ const ROADMAP = [
 // url: null = belum live, tampil sebagai badge "Soon"
 const SOCIALS = [
   { key: "twitter", label: "X / Twitter", url: null, icon: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>` },
+ 
 ];
 
 const ARCHIVE_CAPTIONS = [
