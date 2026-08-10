@@ -9,7 +9,7 @@
   --ink: #0A0A0B;
   --ink-soft: #131313;
   --paper: #F2F0E9;
-  --electric: #086722;
+  --electric: #146e2c;
   --gray: #94939A;
   --red: #F0341E;
 }
@@ -99,7 +99,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
   padding: 16px 32px; font-size: 16px;
 }
 .btn:active { transform: scale(0.95); }
-.btn-compact { padding: 20px 40px; font-size: 26px; }
+.btn-compact { padding: 20px 20px; font-size: 13px; }
 .btn-solid { background: var(--electric); color: #fff; border-color: var(--ink); }
 .btn-solid:hover { transform: translateY(-2px); box-shadow: 6px 6px 0 0 rgba(242,240,233,1); }
 .btn-outline { background: transparent; color: var(--paper); border-color: var(--paper); }
