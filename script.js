@@ -24,7 +24,6 @@ const TOKEN_META = [
   { label: "Token", value: "WORLD SLAPPING CAT" },
   { label: "Ticker", value: "$WSC" },
   { label: "Network", value: "Robinhood Chain" },
-  { label: "Token supply", value: "COMING SOON" },
 ];
 
 // percent: null = belum final, tampilkan pola "coming soon"
@@ -44,8 +43,6 @@ const ROADMAP = [
 // url: null = belum live, tampil sebagai badge "Soon"
 const SOCIALS = [
   { key: "twitter", label: "X / Twitter", url: null, icon: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>` },
-  { key: "telegram", label: "Telegram", url: null, icon: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>` },
-  { key: "discord", label: "Discord", url: null, icon: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>` },
 ];
 
 const ARCHIVE_CAPTIONS = [
